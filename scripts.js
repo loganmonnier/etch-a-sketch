@@ -1,5 +1,11 @@
 const container = document.querySelector('.container');
 const input = document.querySelector("input");
+const button = document.querySelector("button");
+
+button.addEventListener('click', function(){
+    
+})
+
 
 let numRows = parseInt(input);
 let numCols = parseInt(input);
