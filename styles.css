@@ -1,0 +1,12 @@
+.grid-section {
+    background-color:black;
+    border-color: white;
+    border: 2px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container{
+    width: 650px;
+    height: 650px;
+}
