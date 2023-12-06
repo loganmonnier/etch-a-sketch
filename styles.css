@@ -1,6 +1,7 @@
 .grid-square {
     background-color: white;
-    flex: 0 0 calc(6.25%);
+    flex: 0 0 calc(100% / var(--numCols));
+    aspect-ratio: 1;
 }
 
 .container{
