@@ -10,3 +10,20 @@
     width: 650px;
     height: 650px;
 }
+
+.input-button {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color:rgb(134, 170, 238);
+    border-style:groove;
+    border: 3px;
+    border-radius: 5px;
+}
+
+.input-container{
+    display:flex;
+    flex-direction: row;
+    align-items: flex-start;
+}

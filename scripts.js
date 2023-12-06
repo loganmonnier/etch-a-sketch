@@ -17,7 +17,6 @@ for (let r = 0; r < numRows; r++){
         gridSquare.addEventListener('mouseenter', function(){
             this.style.backgroundColor = 'black';
         })
-        
     } 
 }})
 
