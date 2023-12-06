@@ -2,6 +2,7 @@
     background-color: white;
     flex: 0 0 calc(100% / var(--numCols));
     aspect-ratio: 1;
+    box-sizing: border-box;
 }
 
 .container{
@@ -17,13 +18,7 @@
     padding-top: 20px;
     padding-bottom: 20px;
     background-color:rgb(134, 170, 238);
-    border-style:groove;
+    border-style: groove;
     border: 3px;
     border-radius: 5px;
-}
-
-.input-container{
-    display:flex;
-    flex-direction: row;
-    align-items: flex-start;
 }
